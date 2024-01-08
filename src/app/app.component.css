@@ -1,12 +1,31 @@
 .navbar {
-    background-color: #3498db; /* Change this color to your desired background color */
+    display: flex;
+    height: auto;
   }
-  
-  .navbar-nav .nav-link {
-    color: #ffffff; /* Change this color to your desired text color */
+
+a:hover {
+    color: white; /* Change to the desired hover color */
   }
-  
-  .navbar-nav .nav-link:hover {
-    color: #ffffff; /* Change this color to your desired text color on hover */
+  .home,
+  .projects,
+  .skills,
+  .contact  {
+    font-size: 15px;
+    height: auto;
+    width: auto;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: transform 0.3s ease, background-color 0.3s ease; 
+    }
+
+  .home:hover,
+  .projects:hover,
+  .skills:hover,
+  .contact:hover {
+    background-color: #2980b9; 
+    transform: scale(1.1);
   }
-  

@@ -1,7 +1,14 @@
 <nav class="navbar">
-  <a routerLink="/" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact: true}">Home</a>
-  <a routerLink="/projects" routerLinkActive="active-link">Projects</a>
-  <a routerLink="/skills" routerLinkActive="active-link">Skills</a>
-  <a routerLink="/contact" routerLinkActive="active-link">Contact</a>
-</nav>
+    <div>
+    <a class="home"routerLink="/" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact: true}">Home</a>
+    </div>
+    <div>  <a class="projects" routerLink="/projects" routerLinkActive="active-link">Projects</a>
+    </div>
+    <div>
+      <a class="skills" routerLink="/skills" routerLinkActive="active-link">Skills</a>
+    </div>
+    <div>
+      <a class="contact" routerLink="/contact" routerLinkActive="active-link">Contact</a>
+    </div>
+</nav>  
 <router-outlet></router-outlet>
