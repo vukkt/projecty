@@ -1,31 +1,10 @@
-.navbar {
-    display: flex;
-    height: auto;
-  }
+/* Reset margin and padding for body and html */
+body, html {
+  margin: 0;
+  padding: 0;
+}
 
-a:hover {
-    color: white; /* Change to the desired hover color */
-  }
-  .home,
-  .projects,
-  .skills,
-  .contact  {
-    font-size: 15px;
-    height: auto;
-    width: auto;
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #3498db;
-    color: #ffffff;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: transform 0.3s ease, background-color 0.3s ease; 
-    }
-
-  .home:hover,
-  .projects:hover,
-  .skills:hover,
-  .contact:hover {
-    background-color: #2980b9; 
-    transform: scale(1.1);
-  }
+app-navbar {
+  display: block;
+  width: 100%;
+}
